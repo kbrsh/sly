@@ -1,0 +1,4 @@
+@color: #abcdef
+
+body
+    background-color: @color

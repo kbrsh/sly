@@ -4,8 +4,7 @@
   "author": "Kabir Shah <simplecooldude1@gmail.com>",
   "version": "0.0.0",
   "dependencies": {
-    "ioscript.js": "== 0.2.0",
-    "suite.js": "== 0.1.7"
+    "minimist": "^1.2.0"
   },
   "main": "./lib/sly.js",
   "bin": "./bin/sly",
