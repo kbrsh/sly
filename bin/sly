@@ -1,0 +1,11 @@
+#!/usr/bin/env node
+var ioscript = require('ioscript.js');
+var mocss = require('../');
+
+ioscript({
+    version: '0.3.0',
+    args: process.argv,
+    inputExtension: 'sly',
+    outputExtension: 'css',
+    transform: sly,
+});

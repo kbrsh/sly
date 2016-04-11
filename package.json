@@ -1,0 +1,25 @@
+{
+  "name": "sly-css",
+  "description": "Making CSS Better",
+  "author": "Kabir Shah <simplecooldude1@gmail.com>",
+  "version": "0.0.0",
+  "dependencies": {
+    "ioscript.js": "== 0.2.0",
+    "suite.js": "== 0.1.7"
+  },
+  "main": "./lib/sly.js",
+  "bin": "./bin/sly",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KingPixil/sly.git"
+  },
+  "homepage": "https://github.com/KingPixil/sly",
+  "bugs": {
+    "url": "https://github.com/KingPixil/sly/issues"
+  },
+  "keywords": [
+    "css",
+    "preprocessor"
+  ],
+  "license": "MIT"
+}
