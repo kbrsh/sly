@@ -20,5 +20,8 @@
     "css",
     "preprocessor"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "nob": "0.0.1"
+  }
 }
