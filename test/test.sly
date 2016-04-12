@@ -1,4 +1,7 @@
-@color: #abcdef
+@color: #000
 
 body
     background-color: @color
+    
+    h1
+        color: #fff

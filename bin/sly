@@ -9,12 +9,13 @@ function main() {
   const argv = minimist(process.argv.slice(2));
 
   if(!argv.input) {
-    return console.error('Missing --input');
+    return console.error('\u001b[41m', 'ERROR:', '\u001b[49m', '\x1b[31m', 'Missing --input', '\x1b[0m');
   }
 
   if(!argv.output) {
-    return console.error('Missing --output');
+    return console.error('\u001b[41m', 'ERROR:', '\u001b[49m', '\x1b[31m', 'Missing --output', '\x1b[0m');
   }
+  
 
   const input = fs.readFileSync(argv.input, {
     encoding: 'utf-8'
