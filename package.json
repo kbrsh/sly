@@ -2,7 +2,7 @@
   "name": "sly-css",
   "description": "Making CSS Better",
   "author": "Kabir Shah <simplecooldude1@gmail.com>",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "dependencies": {
     "minimist": "^1.2.0"
   },
