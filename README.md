@@ -27,7 +27,29 @@ You can declare variables anywhere, you just need an `@` symbol to indicate it. 
 
 ### Nesting
 
-You can nest things within each other!
+You can nest things within each other! Here is an example
+
+```
+body
+  color: white
+  
+  h1
+    color: red
+```
+
+and it will compile to:
+
+```
+body {
+  color: white;
+}
+
+body h1 {
+  color: red;
+}
+```
+
+
 
 
 
