@@ -1,5 +1,7 @@
 # SlY - Making CSS Better
 
+## Warning: Sly is in the Alpha Stage, not recommended for production, only for develoment!
+
 # Usage
 
 * First of all, `npm install -g sly`
