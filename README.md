@@ -7,7 +7,7 @@
 * First of all, `npm install -g sly`
 * Second, make any `.sly` file
 * Code in Sly!
-* To Compile, use the `sly --input <input .sly file> --output <output .css file>`
+* To Compile, use the `sly --c <input .sly file>`
 
 ## Sly Syntax
 
