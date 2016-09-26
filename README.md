@@ -16,7 +16,7 @@ Sly is very flexible.
 ### Whitespace-based
 
 You don't need curly braces, or semicolons, although you need colons. But it is based on whitespace. For example, you can do
-```
+```stylus
 body
   color: white
   background: black
@@ -31,7 +31,7 @@ You can declare variables anywhere, you just need an `@` symbol to indicate it. 
 
 You can nest things within each other! Here is an example
 
-```
+```stylus
 body
   color: white
   
@@ -41,7 +41,7 @@ body
 
 and it will compile to:
 
-```
+```css
 body {
   color: white;
 }
@@ -51,12 +51,6 @@ body h1 {
 }
 ```
 
-
-
-
-
-
-
-# Credts
+# Credits
 
 I was following a tutorial from an amazing [blog post](http://www.nixtu.info/2011/12/how-to-write-css-preprocessor-using.html), and built on that!
